@@ -13,16 +13,19 @@ A simple dictionary to XML converter that "Just Works".
 
 Usage
 -----
+.. code:: python
 
-$ python
->>> from dump_xml import dump_xml
->>> dump_xml({1: 2}, name="root")
-<Element 'root' at 0x0000000003B104A8>
+  $ python
+  >>> from dump_xml import dump_xml
+  >>> dump_xml({1: 2}, name="root")
+  <Element 'root' at 0x0000000003B104A8>
 
 Installation
 ------------
 
-$ pip install dump_xml
+.. code:: bash
+
+  $ pip install dump_xml
 
 Compatibility
 -------------
