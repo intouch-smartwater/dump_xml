@@ -8,7 +8,7 @@ setuptools.setup(
     author="James Cheese",
     author_email="james.cheese@intouch-ltd.com",
 
-    description="A simple dictionary to XML converter that "Just Works".",
+    description="A simple dictionary to XML converter that \"Just Works\".",
     long_description=open('README.rst').read(),
 
     packages=setuptools.find_packages(),
