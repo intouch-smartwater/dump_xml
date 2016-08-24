@@ -27,25 +27,25 @@ def dump_xml(target, name, _parent=None):
         name: Name for this element (or root element)
         
     Examples:
-    >>> ElementTree.tostring(dump_xml(1, "a"))
-    b'<a>1</a>'
+    >>> bytearray(ElementTree.tostring(dump_xml(1, "a")))
+    bytearray(b'<a>1</a>')
 
-    >>> ElementTree.tostring(dump_xml(OrderedDict([('apple', 4), ('banana', 3), ('orange', 2), ('pear', 1)]), "a"))
-    b'<a><apple>4</apple><banana>3</banana><orange>2</orange><pear>1</pear></a>'
+    >>> bytearray(ElementTree.tostring(dump_xml(OrderedDict([('apple', 4), ('banana', 3), ('orange', 2), ('pear', 1)]), "a")))
+    bytearray(b'<a><apple>4</apple><banana>3</banana><orange>2</orange><pear>1</pear></a>')
 
-    >>> ElementTree.tostring(dump_xml(ElementTree.Element("nop"), "a"))
-    b'<a><nop /></a>'
+    >>> bytearray(ElementTree.tostring(dump_xml(ElementTree.Element("nop"), "a")))
+    bytearray(b'<a><nop /></a>')
 
-    >>> ElementTree.tostring(dump_xml({"a": [1,2,3]}, "b"))
-    b'<b><a>1</a><a>2</a><a>3</a></b>'
+    >>> bytearray(ElementTree.tostring(dump_xml({"a": [1,2,3]}, "b")))
+    bytearray(b'<b><a>1</a><a>2</a><a>3</a></b>')
 
-    >>> ElementTree.tostring(dump_xml([1,2,3], "a"))
+    >>> bytearray(ElementTree.tostring(dump_xml([1,2,3], "a")))
     Traceback (most recent call last):
     ...
     ValueError: Cannot XML serialize a sequence without a containing element
 
-    >>> ElementTree.tostring(dump_xml({"b": [4,5,{"c": {"d": False}}, ElementTree.Element("nop")],}, "a"))
-    b'<a><b>4</b><b>5</b><b><c><d>False</d></c></b><b><nop /></b></a>'
+    >>> bytearray(ElementTree.tostring(dump_xml({"b": [4,5,{"c": {"d": False}}, ElementTree.Element("nop")],}, "a")))
+    bytearray(b'<a><b>4</b><b>5</b><b><c><d>False</d></c></b><b><nop /></b></a>')
     """
     if _parent == None:
         pass # Do something?
