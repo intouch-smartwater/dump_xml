@@ -7,7 +7,8 @@ __all__ = []
 from xml.etree import ElementTree
 from collections import OrderedDict, Sequence
 
-def dump_xml(target: object, name: str, _parent:ElementTree.Element=None):
+def dump_xml(target, name, _parent=None):
+    # type: (object, str, ElementTree.Element) -> ElementTree.Element
     """
     Takes the object in target and encodes it as an ElementTree XML node named *name*.
 
