@@ -9,6 +9,14 @@ dump_xml
    :target: https://travis-ci.org/intouch-smartwater/dump_xml
    :alt: Latest Travis CI build status
 
+.. image:: https://img.shields.io/pypi/l/dump_xml.svg
+    :target: https://pypi.python.org/pypi/dump_xml
+    :alt: License
+
+.. image:: https://img.shields.io/pypi/pyversions/dump_xml.svg
+    :target: https://pypi.python.org/pypi/dump_xml
+    :alt: Support Python Versions
+
 A simple dictionary to XML converter that "Just Works".
 
 Usage
