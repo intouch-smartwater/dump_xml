@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="dump_xml",
-    version="0.1.0",
+    version="0.1.1",
     url="https://github.com/intouch-smartwater/dump_xml",
 
     author="James Cheese",
