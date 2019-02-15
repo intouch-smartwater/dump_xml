@@ -38,7 +38,7 @@ Installation
 Compatibility
 -------------
 
-Tests run on Python 2.7, 3.4 and 3.5. Compatibility is aimed primarily at
+Tests run on Python 2.7 and 3.4 - 3.7. Compatibility is aimed primarily at
 ensuring 3.x as a first-class experience, with 2.x as a "nice-to-have".
 
 Licence
