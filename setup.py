@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="dump_xml",
-    version="0.1.2",
+    version="1.0.0",
     url="https://github.com/intouch-smartwater/dump_xml",
 
     author="James Cheese",
@@ -17,7 +17,7 @@ setuptools.setup(
     license='MIT',
 
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
@@ -26,5 +26,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
