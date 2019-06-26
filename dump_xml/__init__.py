@@ -46,6 +46,9 @@ def dump_xml(target, name, _parent=None):
 
     >>> bytearray(ElementTree.tostring(dump_xml({"b": [4,5,{"c": {"d": False}}, ElementTree.Element("nop")],}, "a")))
     bytearray(b'<a><b>4</b><b>5</b><b><c><d>False</d></c></b><b><nop /></b></a>')
+
+    >>> bytearray(ElementTree.tostring(dump_xml({"b": "c"}, ElementTree.Element("nop")],}, "a")))
+    bytearray(b'<a><b>c</b></a>')
     """
     if _parent == None:
         pass # Do something?
