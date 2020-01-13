@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fintouch-smartwater%2Fdump_xml.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fintouch-smartwater%2Fdump_xml?ref=badge_shield)
+
 dump_xml
 ========
 
@@ -50,3 +52,6 @@ Authors
 -------
 
 `dump_xml` was written by `James Cheese <james.cheese@intouch-ltd.com>`_.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fintouch-smartwater%2Fdump_xml.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fintouch-smartwater%2Fdump_xml?ref=badge_large)
